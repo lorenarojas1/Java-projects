@@ -9,6 +9,7 @@ public class Variables {
 
         // Declare and give value to a variable
         int salary = 1000;
+        System.out.println(salary);
 
         // Create a string variable
         String employeeName = "Lorena Rojas";

@@ -17,5 +17,20 @@ public class Casting {
         System.out.println(a/b); // 2
         System.out.println((double) a/b); // 2.5
 
+        double c = a/b;
+        System.out.println(c); // 2.0
+
+        double d = (double) a/b;
+        System.out.println(d); // 2.5
+
+        // automatic Cast of  char to int
+        char n = '1';
+        int nI = n;
+
+        System.out.println(nI); // 49 - value 1 en ASCII - alt + 49 = 1
+
+        // specific cast of char to short
+        short nS = (short) n;
+        System.out.println(nS); // 49
     }
 }

@@ -8,7 +8,7 @@ public class Functions {
 
         System.out.println("MXN to Dollars: " + convertToDollar(200, "MXN"));
         System.out.println("COP to Dollars: " + convertToDollar(200, "COP"));
-        
+
     }
     public static double circleArea(double r){
         return Math.PI * Math.pow(r,2);
@@ -19,6 +19,13 @@ public class Functions {
     public static double sphereVolume(double r){
         return (4/3) * Math.PI * Math.pow(r, 3);
     }
+
+    /**
+     * Description: function that convert an amount to dollars
+     * @param quantity amount
+     * @param currency Money type: only accept MXN or COP
+     * @return quantity return value description of this function
+     * */
     public static double convertToDollar(double quantity, String currency){
         // MXN COP
         switch (currency){
